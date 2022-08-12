@@ -1,0 +1,43 @@
+body{
+  display: block;
+}
+
+#output
+{
+  padding: 5px 5px 5px 5px;
+  background-color: black;
+  height: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  overflow: auto;
+}
+#textarea
+{
+  height: 50%;
+  margin-top: 20px;
+  overflow: :auto;
+}
+
+#textbox
+{
+  height: 100%;
+  width: 100%;
+}
+
+#head
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.child1, .child2
+{
+  flex:2;
+  justify-content: space-between;
+}
+
+.child2
+{
+  align-items: flex-end;
+}
